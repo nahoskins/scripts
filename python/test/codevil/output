@@ -1,0 +1,126 @@
+{
+  "nmap": {
+    "command_line": "nmap -oX - -p 21,53,88,135,139,389,445,3389,49152 -sV 192.168.43.220",
+    "scaninfo": {
+      "tcp": {
+        "method": "syn",
+        "services": "21,53,88,135,139,389,445,3389,49152"
+      }
+    },
+    "scanstats": {
+      "downhosts": "0",
+      "elapsed": "73.54",
+      "timestr": "Sat Dec  5 03:35:17 2015",
+      "totalhosts": "1",
+      "uphosts": "1"
+    }
+  },
+  "scan": {
+    "192.168.43.220": {
+      "addresses": {
+        "ipv4": "192.168.43.220",
+        "mac": "00:50:56:AF:0E:3D"
+      },
+      "hostnames": [],
+      "status": {
+        "reason": "arp-response",
+        "state": "up"
+      },
+      "tcp": {
+        "21": {
+          "conf": "10",
+          "cpe": "cpe:/o:microsoft:windows",
+          "extrainfo": "",
+          "name": "ftp",
+          "product": "FileZilla ftpd",
+          "reason": "syn-ack",
+          "state": "open",
+          "version": "0.9.34 beta"
+        },
+        "53": {
+          "conf": "10",
+          "cpe": "cpe:/o:microsoft:windows",
+          "extrainfo": "",
+          "name": "domain",
+          "product": "Microsoft DNS",
+          "reason": "syn-ack",
+          "state": "open",
+          "version": "6.1.7601"
+        },
+        "88": {
+          "conf": "10",
+          "cpe": "cpe:/o:microsoft:windows",
+          "extrainfo": "server time: 2013-12-28 07:37:06Z",
+          "name": "kerberos-sec",
+          "product": "Windows 2003 Kerberos",
+          "reason": "syn-ack",
+          "state": "open",
+          "version": ""
+        },
+        "135": {
+          "conf": "10",
+          "cpe": "cpe:/o:microsoft:windows",
+          "extrainfo": "",
+          "name": "msrpc",
+          "product": "Microsoft Windows RPC",
+          "reason": "syn-ack",
+          "state": "open",
+          "version": ""
+        },
+        "139": {
+          "conf": "10",
+          "cpe": "",
+          "extrainfo": "",
+          "name": "netbios-ssn",
+          "product": "",
+          "reason": "syn-ack",
+          "state": "open",
+          "version": ""
+        },
+        "389": {
+          "conf": "10",
+          "cpe": "",
+          "extrainfo": "",
+          "name": "ldap",
+          "product": "",
+          "reason": "syn-ack",
+          "state": "open",
+          "version": ""
+        },
+        "445": {
+          "conf": "10",
+          "cpe": "",
+          "extrainfo": "",
+          "name": "netbios-ssn",
+          "product": "",
+          "reason": "syn-ack",
+          "state": "open",
+          "version": ""
+        },
+        "3389": {
+          "conf": "10",
+          "cpe": "",
+          "extrainfo": "",
+          "name": "ms-wbt-server",
+          "product": "Microsoft Terminal Service",
+          "reason": "syn-ack",
+          "state": "open",
+          "version": ""
+        },
+        "49152": {
+          "conf": "10",
+          "cpe": "cpe:/o:microsoft:windows",
+          "extrainfo": "",
+          "name": "msrpc",
+          "product": "Microsoft Windows RPC",
+          "reason": "syn-ack",
+          "state": "open",
+          "version": ""
+        }
+      },
+      "vendor": {
+        "00:50:56:AF:0E:3D": "VMware"
+      }
+    }
+  }
+}

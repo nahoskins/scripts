@@ -1,0 +1,13 @@
+host;protocol;port;name;state;product;extrainfo;reason;version;conf;cpe
+192.168.43.220;tcp;21;ftp;open;FileZilla ftpd;;syn-ack;0.9.34 beta;10;cpe:/o:microsoft:windows
+192.168.43.220;tcp;53;domain;open;Microsoft DNS;;syn-ack;6.1.7601;10;cpe:/o:microsoft:windows
+192.168.43.220;tcp;88;kerberos-sec;open;Windows 2003 Kerberos;server time: 2013-12-28 07:37:06Z;syn-ack;;10;cpe:/o:microsoft:windows
+192.168.43.220;tcp;135;msrpc;open;Microsoft Windows RPC;;syn-ack;;10;cpe:/o:microsoft:windows
+192.168.43.220;tcp;139;netbios-ssn;open;;;syn-ack;;10;
+192.168.43.220;tcp;389;ldap;open;;;syn-ack;;10;
+192.168.43.220;tcp;445;netbios-ssn;open;;;syn-ack;;10;
+192.168.43.220;tcp;3389;ms-wbt-server;open;Microsoft Terminal Service;;syn-ack;;10;
+192.168.43.220;tcp;49152;msrpc;open;Microsoft Windows RPC;;syn-ack;;10;cpe:/o:microsoft:windows
+host;protocol;port;name;state;product;extrainfo;reason;version;conf;cpe
+192.168.43.220;tcp;21;ftp;open;FileZilla ftpd;;syn-ack;0.9.34 beta;10;cpe:/o:microsoft:windows
+192.168.43.220;tcp;
